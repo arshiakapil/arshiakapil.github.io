@@ -43,7 +43,10 @@ nav {
 .nav-links a:hover {
     color: var(--accent);
 }
-
+.nav-links a.active {
+    color: var(--accent);
+    font-weight: 700;
+}
 /* ===== Hero Section ===== */
 .hero {
     text-align: center;
@@ -61,6 +64,15 @@ nav {
     font-size: 20px;
     margin-top: 12px;
     opacity: 0.75;
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 10px;
 }
 
 /* ===== General Sections ===== */
