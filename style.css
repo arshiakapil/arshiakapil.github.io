@@ -138,11 +138,17 @@ footer {
     }
 }
 
+.project-card-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .project-image {
-  width: 100%;
+  width: 220px;     /* controls size */
   height: auto;
+  flex-shrink: 0;   /* prevents image from shrinking */
   border-radius: 8px;
-  margin-bottom: 1rem;
   border: 1px solid #e5e5e5;
-  object-fit: cover;
+  object-fit: contain;
 }
